@@ -1,5 +1,5 @@
 
-# Project 1 - data structure of 3D model 
+# Project 1 - Data structure of 3D model 
 
 ## Obj Format
 ```
