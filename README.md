@@ -1,3 +1,4 @@
 # 3d-model-on-website
 
-[Link](https://majaja068.github.io/3d-model-on-website/oreo.html)
+
+[Link](https://majaja068.github.io/Computer_Graphics/Project1/oreo.html)
