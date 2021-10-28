@@ -1,3 +1,10 @@
+'''
+require：
+1. PyOpenGL
+2. PyOpenGL_accelerate
+3. freeglut
+'''
+
 import sys
 from math import *
 from OpenGL.GL import *
