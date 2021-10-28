@@ -32,7 +32,7 @@ usemtl oreo_box
 f 1/10/1 3/13/1 2/11/1
 f 2/11/1 3/13/1 4/14/1
 ```
-<>
+<br>
 <img src="image/obj_face.png" width=300>
 ▲ obj format of face description
 
