@@ -1,4 +1,4 @@
-## [Project 2](Project/Project2.md) - Transformations: Translation, Rotation, and Scaling of 3D model
+## Project 2 - Transformations: Translation, Rotation, and Scaling of 3D model
 
 ### position p in 2D
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\begin{bmatrix}x\\y\\1\end{bmatrix}" />
