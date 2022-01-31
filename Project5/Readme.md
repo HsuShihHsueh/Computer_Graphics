@@ -1,5 +1,5 @@
 # Project5 - Mouse Control
-Demo：Render the Stereo-VR View of Two Fish-eye Images
+**Demo：Render the Stereo-VR View of Two Fish-eye Images**
 
 ## 1. obj file & mtl file 創建
 假設沒有該文件，則創建文件(自動生成 obj file)，反之則開啟文件<br>
@@ -19,5 +19,5 @@ hemisphere.py 的 generate function 用來創建半圓.obj 檔與.mtl 檔<br>
 最後調適出來是乘以放大倍率 zoom<sup>0.2</sup>較符合實際情況。<br>
 
 
-## 4. 結果
+## 4. Demo：Render the Stereo-VR View of Two Fish-eye Images
 <img src="image/vr.gif" width=600><br>
