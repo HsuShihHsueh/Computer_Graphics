@@ -1,14 +1,14 @@
 # Project3
 
 
-### 1. File Import
+## 1. File Import
 ```python
 track = pywavefront.Wavefront('CarOnTrack/FullTrack.obj')
 car   = pywavefront.Wavefront('CarOnTrack/SG_Car.obj')
 route = np.genfromtxt('CarOnTrack/RoutWnormal.xyz', delimiter=' ')
 ```
-<b>A. </b> use pywavefront.Wavefront to import obj file<br>
-<b>B. </b>  `visualization.draw` to display it<br>
+### A. use pywavefront.Wavefront to import obj file
+### B. `visualization.draw` to display it
 ```python
 glMatrixMode(GL_MODELVIEW)
 glEnable(GL_LIGHTING)       
@@ -22,13 +22,15 @@ visualization.draw(car) # <-
 glPopMatrix()
 glDisable(GL_LIGHTING)
 ```
-<b>C. </b>  use np to import xyz file, return numpy.ndarray<br>
-there are three information about it：<br>
-v(t) ：the car location on this point (t=t)<br>
-v(t-1)：the car location on last point (t=t-1)<br>
-dv ：the vector between v(t) v(t-1) two point<br>
-vt(t) ：the car's normal vector on this point (t=t)<br>
-<img src="image/img1.png" width=600><br>
+### C. use np to import xyz file, return numpy.ndarray
+```
+there are three information about it：
+v(t) ：the car location on this point (t=t)
+v(t-1)：the car location on last point (t=t-1)
+dv ：the vector between v(t) v(t-1) two point
+vt(t) ：the car's normal vector on this point (t=t)
+```
+<img src="image/img1.png" width=250><br>
 ```python
 global v,v_1,vt,dv
 v   = route[angle,:3]
@@ -37,12 +39,12 @@ vt  = route[angle,3:]
 dv = v - v_1
 dv = dv / np.linalg.norm(dv)
 ```
-### 2. count from 0 to max of route point(351) and routine
+## 2. count from 0 to max of route point(351) and routine
 ```python
 global angle
 angle = (angle + 1) % route.shape[0]
 ```
-### 3. Transmation matrix for car (L48~55)
+## 3. Transmation matrix for car (L48~55)
 ```python
 def car_transformation():
     M = np.identity(4)									# identity matrix I
@@ -58,7 +60,7 @@ def car_transformation():
 ```
 <img src="image/img2.png" width=600><br>
 
-<b>A. </b> Line.96 Camera control (=gluLookAt)
+### A. Line.96 Camera control (=gluLookAt)
 ```python
 def midLookAt(eyex,eyey,eyez,centerx,centery,centerz,upx=0,upy=1,upz=0):
 	w = np.array([eyex,eyey,eyez])-np.array([centerx,centery,centerz])
@@ -77,18 +79,18 @@ def midLookAt(eyex,eyey,eyez,centerx,centery,centerz,upx=0,upy=1,upz=0):
 	glLoadMatrixf(M)
 ```
 
-<b>B. </b>Line.27 how car rotate to fit route<br>
-dx = v(t) – v(t-1) 轉向 x 軸：<br>
-vt (normal vector) 轉向 z 軸：<br>
-vt, dv 的外積轉向 y 軸：<br>
+### B. Line.27 how car rotate to fit route
 ```python
-    vec = np.cross(vt,dv)
-    vec = vec / np.linalg.norm(vec)
-    M = np.dot(M,midRotated(dv,vec,vt))					# rotate to fit route
+# dx = v(t) – v(t-1) 轉向 x 軸：
+# vt (normal vector) 轉向 z 軸：
+# vt, dv 的外積轉向 y 軸：
+vec = np.cross(vt,dv)
+vec = vec / np.linalg.norm(vec)
+M = np.dot(M,midRotated(dv,vec,vt))					# rotate to fit route
 ```
-<img src="image/img3.png" width=600><br>
+<img src="image/img3.png" width=250><br>
 
-<b>C. </b>Rotate Matrix
+### C. Rotate Matrix
 ```python
 def midRotated(u,v,w):
 	M = np.array([  
@@ -102,5 +104,5 @@ def midRotated(u,v,w):
 
 
 
-### 4. Result
+## 4. Result
 <img src="image/car.gif" width=600><br>
