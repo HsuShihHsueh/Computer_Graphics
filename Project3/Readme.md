@@ -104,5 +104,5 @@ def midRotated(u,v,w):
 
 
 
-## 4. Result
+## 4. Demo：Making a racing car animation
 <img src="image/car.gif" width=600><br>
