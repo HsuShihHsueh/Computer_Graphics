@@ -1,6 +1,6 @@
 # Project4 - Image Stitching
 
-Combine 100 small images(800x600) to one huge image(8000x6000) so that we can render the Ultra-high Resolution Pictures.<br>
+Combine 100 small images(800x600) to one huge image(8000x6000) so that we can **render the Ultra-high Resolution Pictures**.<br>
 Like the schematic below.
 
 <img src="image/project4.png" width=600><br>
