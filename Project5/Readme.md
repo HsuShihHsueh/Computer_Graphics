@@ -1,4 +1,5 @@
 # Project5 - Mouse Control
+Demo：Render the Stereo-VR View of Two Fish-eye Images
 
 ## 1. obj file & mtl file 創建
 假設沒有該文件，則創建文件(自動生成 obj file)，反之則開啟文件<br>
