@@ -19,7 +19,7 @@
 
 
 ## <div id='pro3'>[Project 3](Project3) - Camera & Object Control</div>
-<b>Demo：Render Ultra-high Resolution Pictures </b><br>
+<b>Demo：Making a racing car animation</b><br>
 <img src="Project3/image/car.gif" width=600><br>
 
 
