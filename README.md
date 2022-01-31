@@ -18,15 +18,15 @@
 
 
 
-##　<div id='proc3'>[Project 3](Project3/Project3.md) Camera & Object Control</div>
+## <div id='proc3'>[Project 3](Project3/Project3.md) Camera & Object Control</div>
 <b>Demo：Render Ultra-high Resolution Pictures </b><br>
 <img src="Project3/image/car.gif" width=600><br>
 
 
-##　<div id='proc4'>[Project 4](Project4/Project4.md) Image Stitching</div>
+## <div id='proc4'>[Project 4](Project4/Project4.md) Image Stitching</div>
 <b>Demo：Render Ultra-high Resolution Pictures </b><br>
 <img src="Project4/image/project4.png" width=600><br>
 
-##　<div id='proc5'>[Project 5](Project3/Project3.md) Mouse Control</div>
+## <div id='proc5'>[Project 5](Project3/Project3.md) Mouse Control</div>
 <b>Demo：Render the Stereo-VR View of Two Fish-eye Images</b><br>
 <img src="Project5/image/vr.gif" width=600><br>
