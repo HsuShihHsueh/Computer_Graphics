@@ -97,7 +97,7 @@ def display():
                 for i in range(amplify):
                     img_buffer2.append(np.vstack(img_buffer[i*amplify:i*amplify+amplify][::-1])) # combine row 
                 image =  np.hstack(img_buffer2) # combine column
-                cv2.imwrite('output/B10707134_'+mode+'_'+name+'.JPG',image)  
+                cv2.imwrite('output/'+mode+'_'+name+'.JPG',image)  
                 sleep(0.5) 
                 break
     sys.exit()
