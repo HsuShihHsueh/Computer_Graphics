@@ -16,3 +16,5 @@ hemisphere.py 的 generate function 用來創建半圓.obj 檔與.mtl 檔<br>
 設置邊界由每次移動的總和 R0 設定，設定為只要 R0 與原點的距離超過一定數值便不能移動，<br>
 但放大縮小會影響原點到邊界的距離，所以需要乘以與放大倍率有關的數值，<br>
 最後調適出來是乘以放大倍率 zoom0.2較符合實際情況。<br>
+## 4. 結果
+<img src="image/vr.gif" width=600><br>
