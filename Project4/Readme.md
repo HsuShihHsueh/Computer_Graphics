@@ -32,7 +32,7 @@ cv2.imwrite('output/'+mode+'_'+name+'.JPG',image)
 
 Read image,
 like **Line 58** in `Project4.py`
-```
+```python
 def save_pic():
     colorBuffer = (GLubyte * (windowWidth*windowHeight*3) )(0) # 1440000 == 800*600*3
     glReadPixels(0, 0, windowWidth, windowHeight, GL_BGR, GL_UNSIGNED_BYTE, colorBuffer)
