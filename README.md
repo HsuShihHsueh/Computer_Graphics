@@ -1,4 +1,5 @@
 # Computer_Graphics
+Homework from CI5326 Advanced Computer Graphics
 - [Project 1](#pro1) - Data structure of 3D model
 - [Project 2](#pro2) - Transformations: Translation, Rotation, and Scaling of 3D model
 - [Project 3](#pro3) - Camera & Object Control
