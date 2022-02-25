@@ -19,4 +19,4 @@
 
 ## Demo：Clock Render by openGL
 <img src="image/clock.gif" width=400><br>
-👉 [Colab Link](https://colab.research.google.com/github/majaja068/Computer_Graphics/blob/main/Project2/ClockByOpenGL.ipynb)
+👉 [Colab Link](https://colab.research.google.com/github/HsuShihHsueh/Computer_Graphics/blob/main/Project2/ClockByOpenGL.ipynb)
