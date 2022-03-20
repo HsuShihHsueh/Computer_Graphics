@@ -1,0 +1,18 @@
+{
+	"name": "Computer_Graphics",
+	"thumbnail" : "https://raw.githubusercontent.com/HsuShihHsueh/Computer_Graphics/main/Project1/image/oreo.gif",
+	"project_zh" : "電腦圖學",	
+	"project_en" : "Computer Graphics",
+	"hashtag" : ["#OpenGL","#3D-Model","#ComputerGraphics"],
+	"description_zh" : "本項目為高等電腦圖學(CI5326)作業及期中期末專題，涵蓋的項目有：3D模型的資料結構、物件與相機的轉換控制、大型渲染的影像拼接、以及滑鼠控制3D物件。",
+	"description_en" : "This project is from lesson CI5326 Advanced Computer Graphics's Homework, which included data structure of 3D models, transformation control of objects and cameras, image stitching for large renderings, and mouse control of 3D objects.",
+	"github" : "https://github.com/HsuShihHsueh/Computer_Graphics",
+	"youtube" : "",
+	"date" : "Last Updated : 2022-01-29",
+	"picture" : [
+		"https://github.com/HsuShihHsueh/Computer_Graphics/raw/main/Project1/image/oreo.gif",
+		"https://github.com/HsuShihHsueh/Computer_Graphics/raw/main/Project3/image/car.gif",
+		"https://github.com/HsuShihHsueh/Computer_Graphics/raw/main/Project4/image/project4.png",
+		"https://github.com/HsuShihHsueh/Computer_Graphics/raw/main/Project5/image/vr.gif"
+	]
+}
